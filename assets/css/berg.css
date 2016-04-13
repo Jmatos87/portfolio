@@ -1218,12 +1218,31 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 }
 
 #profile .pp-wrapper .profile-picture.style-two img {
-  margin-top: 100px;
+  margin-top: 60px;
+  height:300px;
+  width:80%;
+}
+
+#profile .pp-wrapper .profile-picture.style-zero img {
+  margin-top: 60px;
+  height:300px;
+  width:80%;
 }
 
 #profile .pp-wrapper .profile-picture.style-two .title {
   display: block;
-  width: 100%;
+  width: 80%;
+  height: 55px;
+  line-height: 55px;
+  background-color: #2e2e2e;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#profile .pp-wrapper .profile-picture.style-zero .title {
+  display: block;
+  width: 80%;
   height: 55px;
   line-height: 55px;
   background-color: #2e2e2e;

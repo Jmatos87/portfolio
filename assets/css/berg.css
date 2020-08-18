@@ -75,6 +75,10 @@
 /*  1. GLOBAL STYLES
 /*  1.1 GENERAL STYLES
 /*---------------------------------------------------------------------*/
+
+.image-adjust{
+  min-height: 100%;
+}
 body,
 html {
   width: 100%;
@@ -750,7 +754,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 .navbar.navbar-fixed-top {
   margin: 0;
   border: 0;
-  height: 66px;
+  height: 71px;
   background-color: #171717;
   border-bottom: 1px solid #282428;
 }
@@ -922,6 +926,9 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
   .navbar.navbar-fixed-top.center-menu .navbar-nav {
     float: none;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
   }
 }
 
@@ -1277,6 +1284,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 .portfolio .item > .project-wrapper {
   position: relative;
   z-index: 5;
+  height:100%
 }
 
 .portfolio .item > .project-wrapper:before {
